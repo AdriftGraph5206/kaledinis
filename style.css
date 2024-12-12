@@ -1,0 +1,77 @@
+body{
+    background-color: #eb0027;
+}
+
+.whtb{
+    background-color: white;
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.whtb1{
+    background-color: white;
+    height: 13%;
+    width: 13%;
+    position: absolute;
+    top: 37%;
+    left: 40.9%;
+}
+
+.whtb2{
+    background-color: white;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 27%;
+    left: 42.5%;
+    z-index: 1;
+}
+
+.block, .block1, .block2, .bl, .bl1, .bl2, .fc, .fc1, .fc2, .fc3, .fc4{
+background-color: black;
+position: absolute;
+width: 7%;
+height: 7%;
+z-index: 2;
+left: 45%
+}
+
+.block, .bl{
+    top: 0;
+}
+
+.block1, .bl1{
+    top: 46%;
+}
+
+.block2, .bl2{
+    bottom: 0;
+}
+
+.fc, .fc4{
+    position: absolute;
+    bottom: 20%;
+}
+
+.fc1, .fc2, .fc3{
+    position: absolute;
+    bottom: 12%;
+}
+
+.fc{
+    left: 25%;
+}
+.fc4{
+    left: 65%;
+}
+
+.fc1{
+    left: 33%;
+}
+
+.fc3{
+    left: 55%;
+}
