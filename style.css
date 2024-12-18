@@ -1,181 +1,188 @@
 body{
     background-color: #eb0027;
-}
-
-.whtb{
-    background-color: white;
-    height: 15%;
-    width: 15%;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-}
-
-.whtb1{
-    background-color: white;
-    height: 13%;
-    width: 13%;
-    position: absolute;
-    top: 37%;
-    left: 40.9%;
-}
-
-.whtb2{
-    background-color: white;
-    height: 10%;
-    width: 10%;
-    position: absolute;
-    top: 27%;
-    left: 42.5%;
-    z-index: 1;
-}
-
-.block, .block1, .block2, .bl, .bl1, .bl2, .fc, .fc1, .fc2, .fc3, .fc4{
-background-color: black;
-position: absolute;
-width: 7%;
-height: 7%;
-z-index: 2;
-left: 45%
-}
-
-.block, .bl{
-    top: 0;
-}
-
-.block1, .bl1{
-    top: 46%;
-}
-
-.block2, .bl2{
-    bottom: 0;
-}
-
-.fc, .fc4{
-    position: absolute;
-    bottom: 20%;
-}
-
-.fc1, .fc2, .fc3{
-    position: absolute;
-    bottom: 12%;
-}
-
-.fc{
-    left: 25%;
-}
-.fc4{
-    left: 65%;
-}
-
-.fc1{
-    left: 33%;
-}
-
-.fc3{
-    left: 55%;
+    margin-inline: auto;
 }
 
 .hugesa{
     position: absolute;
     left: 37%;
+    color: white;
 }
 
-.hat{
-    position: absolute;
-    top: 18%;
-    background-color: black;
-    width: 10%;
-    height: 10%;
-    left: 42.5%;
-}
 
-.bottomhat{
-    position: absolute;
-    top: 24.9%;
-    background-color: black;
-    height: 2%;
-    width: 15%;
-    left: 40%;
-}
-
-.nose{
-    position: absolute;
-    left: 42%;
-    width: 100%;
-    height: 10%;
-    background-color: orange;
-    border: brown 1px solid;
-    top: 40%;
-}
-
-.eye1, .eye2{
-    position: absolute;
-    background-color: black;
-    height: 10%;
-    width: 10%;
-}
-
-.eye1{
-    left: 22%;
-    top: 10%
-}
-
-.eye2{
-    right: 22%;
-    top: 10%
-}
-
-.secret{
+.secret {
     width: 5%;
-    animation: 2s dash infinite;
     position: absolute;
+    transition: all 0.5s ease-in-out; /* Sklandus perėjimas tarp pozicijų */
 }
 
-@keyframes dash{
+
+
+/* is intiko */
+
+.branch1 {
+    border-bottom: 90px solid #1f6c2f;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height:0;
+    left: 220px;
+    position:absolute;
+    top: 70px;
+    width: 0;
+    z-index: 21;
+  }
+  .branch2 {
+    border-bottom: 100px solid #258038;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height:0;
+    left: 210px;
+    position:absolute;
+    top: 90px;
+    width: 0;
+    z-index: 20;
+  }
+  .branch3 {
+    border-bottom: 110px solid #1f6c2f;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    height:0;
+    left: 200px;
+    position:absolute;
+    top: 120px;
+    width: 0;
+    z-index: 19;
+  }
+  
+  .branch4 {
+    border-bottom: 120px solid #258038;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height:0;
+    left: 190px;
+    position:absolute;
+    top: 150px;
+    width: 0;
+    z-index: 18;
+  }
+  
+  .branch5 {
+    border-bottom: 130px solid #1f6c2f;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    height:0;
+    left: 180px;
+    position:absolute;
+    top: 180px;
+    width: 0;
+    z-index: 17;
+  }
+  
+  .branch6 {
+    border-bottom: 140px solid #258038;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    height:0;
+    left: 170px;
+    position:absolute;
+    top: 210px;
+    width: 0;
+    z-index: 16;
+  }
+  
+  .branch7 {
+    border-bottom: 150px solid #1f6c2f;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    height:0;
+    left: 160px;
+    position:absolute;
+    top: 240px;
+    width: 0;
+    z-index: 15;
+  }
+  
+  .trunk {
+    background: #803825;
+    height: 44px;
+    left: 255px;
+    position: absolute;
+    top: 380px;
+    width: 70px;
+    z-index: 14;
+  }
+
+  .tree{
+    position: absolute;
+    left: 10%;
+    top: 20%
+  }
+
+.o1, .o2, .o3, .o4, .o5, .o6, .o7, .o8 {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    animation: color_change 1s infinite;
+    z-index: 25;
+  }
+  .o1{
+   position: absolute;
+   right: 2px;
+   top: 30px;
+  }
+  .o2{
+    position: absolute;
+   left: 5px;
+   top: 50px;
+}
+.o3{
+    position: absolute;
+    right: 3px;
+    top: 70px;
+}
+.o4{
+    position: absolute;
+   left: 50px;
+   top: 120px;
+}
+.o5{position: absolute;
+    right: 10px;
+    top: 80px;
+}
+.o6{
+    position: absolute;
+   right: 6px;
+   top: 90px;
+}
+.o7{
+    position: absolute;
+   right: 23px;
+   top: 100px;
+}
+.o8{
+    position: absolute;
+   right: 31px;
+   top: 110px;
+}
+
+@keyframes color_change{
     0%{
-        top: -10%;
-        left: -10%;
+        background-color: blueviolet;
     }
+
     25%{
-        top: 92%;
-        right: 95%
+        background-color: gold;
     }
+
     50%{
-        top: 92%;
-        left: 95%;
-        rotate: 180deg;
+        background-color: yellow;
     }
 
     75%{
-        top: 70%;
-        left: 50%;
-        rotate: -20deg;
-    }
-
-    95%{
-        top: -5%;
-        left: 95%;
+        background-color: aqua;
     }
 
     100%{
-        top: -10%;
-        left: -10%;
+        background-color: coral;
     }
-}
-
-.nis{
-    position: absolute;
-    left: 60%;
-    top: 20%;
-    background-color: white;
-    height: 15%;
-  width: 15%;
-  border-radius: 50%;
-}
-
-.noras{
-    left: 20%;
-    top: 30%;
-    position: absolute;
 }
